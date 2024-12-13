@@ -1,0 +1,13 @@
+.landing-page{
+    height:35vw;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:10px;
+}
+
+.landing-image{
+    height:23vw;
+    border-radius: 15px; 
+}

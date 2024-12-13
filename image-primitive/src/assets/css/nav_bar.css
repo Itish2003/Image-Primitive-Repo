@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+a {
+    text-decoration: none;
+    text-transform: none;
+    color: inherit; 
+}
+
+.image-pri{
+    margin-left:40px;
+}
+
+.cont{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-evenly;
+    gap:35px;
+    margin-right:20px;
+}
+
+
+.nav-bar{
+    display:flex;
+    gap:25px;
+    flex-flow: row nowrap;
+
+    height:7vw;
+    width:100%;
+    font-size:40px;
+    background-color: black;
+    color:white;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.nav-1{
+    padding-right:20px;
+}
+
+.blue-effect{
+    color: white; /* Default color for div */
+    transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.blue-effect:hover{
+    color: rgb(109, 109, 230); /* Change color of div to match <a> color */
+}

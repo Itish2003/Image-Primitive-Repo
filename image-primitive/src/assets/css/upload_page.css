@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    height:50vw;
+    width:100%;
+    /* border:2px red solid; */
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:50px;
+    color:white;
+    background-color: black;
+    
+}
+
+.border{
+    border:2px red solid;
+}
+
+.upload-icon{
+    margin-top:50px;
+}
+
+.large{
+    font-size:50px;
+}
+
+.medium{
+    font-size:15px;
+}
+
+.right{
+    text-align: end;
+}
+
+.center{
+    text-align: center;
+}
+

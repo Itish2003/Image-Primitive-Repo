@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.border{
+    border:2px red solid;
+}
+
+body {
+    background: #1D2B64; /* Fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8CDDA, #1D2B64); /* Modern browsers */
+}

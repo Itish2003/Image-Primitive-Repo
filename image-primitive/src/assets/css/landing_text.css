@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.h1{
+    font-size:70px;
+    font-weight:700;
+    /* border:2px red solid; */
+}
+
+.color-purple{
+    color:rgb(110, 14, 80);
+    transition:color 0.3s ease;
+}
+
+.color-purple:hover{
+    color:black;
+}
+
+.primitive{
+    color:black;
+    text-decoration-line: none; /* Initially no underline */
+    text-decoration-thickness: 2px; /* Optional: Adjust thickness of underline */
+    transition: color 0.3s ease, text-decoration-line 0.1s ease; /* Transition both color and text-decoration-line */
+}
+
+.primitive:hover{
+    text-decoration-line: underline; /* Underline on hover */
+    color:blue;
+}
+
+.landing-text{
+    max-width:55%;
+}
+
+.intro-content{
+    font-size:large;
+    color:rgb(110, 14, 80);
+}
+
+.robo{
+    font-family:"Roboto Mono", monospace;
+}
+
+.agu{
+    font-family: "Agu Display", serif;
+}
+
+.bebas{
+    font-family: 'Bebas Neue', sans-serif;
+}
