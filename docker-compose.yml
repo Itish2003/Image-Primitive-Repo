@@ -14,7 +14,7 @@ services:
       context: ./image-primitive  # React app is in the 'image-primitive' directory
       dockerfile: Dockerfile  # React Dockerfile inside the 'image-primitive' directory
     ports:
-      - "8080:8080"  # Expose port 80 for React frontend
+      - "8000:8000"  # Expose port 80 for React frontend
     depends_on:
       - go-backend  # Ensure the Go backend starts before the React frontend
     networks:
