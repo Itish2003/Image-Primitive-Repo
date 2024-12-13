@@ -20,7 +20,7 @@ COPY nginx.conf /etc/nginx/nginx.conf
 
 
 # Expose port 80
-EXPOSE 8080
+EXPOSE 8000
 
 
 # Start nginx
