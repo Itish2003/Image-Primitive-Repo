@@ -20,6 +20,12 @@ func Router() *gin.Engine {
 	router.Use(gin.Logger())
 	router.Use(cors.CORSMiddleware())
 
+	router.GET("/", func(c *gin.Context) {
+			c.JSON(200, gin.H{
+				"message": "Base endpoint",
+			})
+		})
+
 	route := router.Group("/v1")
 	{
 		route.GET("/", func(c *gin.Context) {
