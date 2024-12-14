@@ -28,7 +28,7 @@ COPY --from=build /app/server .
 COPY --from=build /go/bin/primitive /usr/local/bin/primitive
 
 # Expose the backend port
-EXPOSE 8000
+EXPOSE 8080
 
 # Run the server
 CMD ["./server"]
