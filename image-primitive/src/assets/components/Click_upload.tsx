@@ -16,7 +16,7 @@ function Click_upload({ setImage }: ClickUploadProps) {
     formData.append('image', file);
 
     try {
-      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL || 'https://image-primitive-repo.onrender.com'}/v1/upload`, {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL || 'http://go-backend:8080'}/v1/upload`, {
         method: 'POST',
         headers: {
            "Origin": window.location.origin, // "http://localhost:8080",  // Add your frontend URL
