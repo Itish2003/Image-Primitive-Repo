@@ -24,7 +24,7 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf  # Mount your Nginx config file
       - ./image-primitive/dist:/usr/share/nginx/html:ro  # Mount the React build output
     ports:
-      - "80:80"  # Expose port 80 for Nginx to forward traffic
+      - "8000:8000"  # Expose port 8000 for Nginx to forward traffic
     depends_on:
       - react-frontend
       - go-backend
