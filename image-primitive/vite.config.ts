@@ -9,9 +9,9 @@ export default defineConfig({
   },
   server: {
     host: '0.0.0.0', // Ensure the server listens on all interfaces
-    port: 3000,      // Set the port for the app
+    port: 8000,      // Set the port for the app
     proxy: {
-      '/v1': 'http://go-backend:8000', // Proxy requests to the Go backend (using container name)
+      '/v1': 'http://go-backend:8080', // Proxy requests to the Go backend (using container name)
     },
   },
 })
